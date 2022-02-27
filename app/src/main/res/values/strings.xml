@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Laboratorinis Number 1</string>
+    <string name="app_name">Hello World</string>
+    <string name="btn_do_smth">Click Me!</string>
 </resources>

@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void OnBtnclickChangeColour(View view) {
-        this.tvMainColor.setTextColor(Color.RED);
+        this.tvMainColor.setTextColor(Color.YELLOW);
     }
 };
 

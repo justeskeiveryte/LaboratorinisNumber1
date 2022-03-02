@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView tvMain;
     TextView tvMainColor;
+    TextView tvMainBackgroundColor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         this.tvMain = findViewById(R.id.tvMain);
         this.tvMainColor = findViewById(R.id.txtChangeColor);
+        this.tvMainBackgroundColor = findViewById(R.id.txtChangeBackgroundColor);
     }
 
     public void OnBtnclick(View view) {
@@ -28,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
     public void OnBtnclickChangeColour(View view) {
         this.tvMainColor.setTextColor(Color.YELLOW);
     }
+
+    public void OnBtnclickChangeBackgroundColor(View view){this.tvMainBackgroundColor.setBackgroundColor(Color.parseColor("#B1BCFF"));}
 };
 
 
